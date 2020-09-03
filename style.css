@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url("backgroundImg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100vh; */
+    /* height: 100vh; */
+}
+.form{
+    display:flex;
+    justify-content: center;
+    /* margin: 280px 0; */
+}
+
+#name,
+#password{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 4px solid black  ;
+    width: 300px;
+    font-size: 20px;
+}
+#btn{
+    width: 300px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 25px;
+}
+h1{
+    text-align: center;
+    margin-top: 270px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 992px) {
+    #btn {
+      color: #fff;
+    }
+  }
